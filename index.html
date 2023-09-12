@@ -92,7 +92,7 @@ for (var i = 0; i < deleteButtons.length; i++) {
 
     function updateLabel() {
       const label = document.getElementsByClassName("label")[0];
-      label.innerHTML = `Todo List (${countTodoListItems()})`;
+      label.innerHTML = `Yapılacak ${countTodoListItems()} görev bulunmakta!`;
     }
 
     window.addEventListener("scroll", updateLabel);
