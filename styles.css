@@ -108,6 +108,9 @@ li{
   padding-bottom: 15px;
   padding-left: 15px;
   font-family: cursive;
+  max-width: 395px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 ul li {
   list-style-type: none;
@@ -120,6 +123,8 @@ ul li {
   position: relative;
   margin-bottom: 10px;
   border-radius: 5px;
+  white-space: normal;
+  height: 20px;
   
   /* make the list items unselectable */
 }
@@ -155,5 +160,6 @@ label{
   padding-top: 5px;
   float: left;
   display: block;
+  margin-bottom: 20px;
 }
 
